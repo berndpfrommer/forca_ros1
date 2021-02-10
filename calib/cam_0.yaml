@@ -1,0 +1,20 @@
+camera_matrix:
+  cols: 3
+  data: [842.771, 0.0, 753.744, 0.0, 842.797, 547.842, 0.0, 0.0, 1.0]
+  rows: 3
+camera_name: cam_0
+distortion_coefficients:
+  cols: 4
+  data: [-0.0107323, -0.0097286, 0.0064405, -0.00265166]
+  rows: 1
+distortion_model: equidistant
+image_height: 1080
+image_width: 1440
+projection_matrix:
+  cols: 4
+  data: [842.771, 0.0, 753.744, 0.0, 0.0, 842.797, 547.842, 0.0, 0.0, 0.0, 1.0, 0.0]
+  rows: 3
+rectification_matrix:
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+  rows: 3
