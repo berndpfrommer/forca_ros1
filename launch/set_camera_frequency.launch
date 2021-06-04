@@ -3,7 +3,11 @@
 	<!-- example launch script for PX4 based FCU's -->
         <arg name="fps"    default="40"/>
 	<!--<arg name="fcu_url" default="/dev/ttyUSB0:57600" /> -->
-	q<arg name="fcu_url" default="/dev/ttyUSB0:921600" />
+	<arg name="fcu_url" default="/dev/ttyUSB0:921600" />
+	<!-- <arg name="fcu_url" default="/dev/ttyUSB0:1500000" /> -->
+	<!--
+	    <arg name="fcu_url" default="/dev/ttyUSB0:921600" />
+	    -->
 	<arg name="gcs_url" default="" />
 	<arg name="tgt_system" default="1" />
 	<arg name="tgt_component" default="1" />

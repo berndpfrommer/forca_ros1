@@ -5,6 +5,22 @@ This repo has code and config files related to the ROS1 parts of the forca proje
 Note: at the moment ROS2 foxy is not supported on the xavier, so you will have to compile it from source.
 Also note the [special build instructions](https://github.com/ros2/ros1_bridge/blob/master/README.md) for the ROS bridge.
 
+## How to build
+
+To get the prophesee stuff to build you need to run this:
+
+```
+export MetavisionSDK_DIR=/home/pfrommer/Documents/openeb/install/usr/local
+export MetavisionHAL_DIR=/home/pfrommer/Documents/openeb/install/usr/local
+```
+
+Then ``catkin build`` the workspace
+
+You will also have to add the library paths:
+```
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib
+```
+
 ## How to run the calibration
 
 1) Start the camera trigger with:

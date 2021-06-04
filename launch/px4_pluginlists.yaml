@@ -1,5 +1,5 @@
 plugin_blacklist:
-- 3dr_radio
+#- 3dr_radio
 - actuator_control
 - adsb
 - altitude
@@ -9,21 +9,21 @@ plugin_blacklist:
 - distance_sensor
 - fake_gps
 - ftp
-- global_position
+#- global_position
 - gps_rtk
 - hil
 - home_position
-- imu
+#- imu
 - local_position
 - log_transfer
-- manual_control
+#- manual_control
 - mocap_pose_estimate
 - obstacle_distance
 - odom
 #- param
 - px4flow
 - rangefinder
-- rc_io
+#- rc_io
 - safety_area
 - setpoint_accel
 - setpoint_attitude
